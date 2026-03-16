@@ -1,5 +1,7 @@
 import React from "react";
 import "./Login.css";
+import { Link } from "react-router-dom";
+import logo from "./assets/logo.png";
 
 function Signup() {
   return (
@@ -7,12 +9,12 @@ function Signup() {
       <div className="login-card">
 
         {/* LEFT SIDE */}
-        <div className="login-left">
-          <h2>Create Account</h2>
-          <p>
-            Register a new account to access the system.
-          </p>
-        </div>
+      <div className="login-left">
+  <img src={logo} alt="Logo" className="login-logo" />
+  <p>
+    You Dream It. <span className="build-text">We Build It.</span>
+  </p>
+</div>
 
         {/* RIGHT SIDE */}
         <div className="login-right">
@@ -31,9 +33,10 @@ function Signup() {
 
           <button>Sign Up</button>
 
-          <p className="signup-text">
-            Already have an account? <span className="signup-link">Login</span>
-          </p>
+         <p className="signup-text">
+  Already have an account? 
+  <Link to="/" className="signup-link"> Login</Link>
+</p>
 
         </div>
 

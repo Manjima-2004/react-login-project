@@ -139,7 +139,7 @@
   color: white;
   cursor: pointer;
   border-radius: 4px;
-<<<<<<< HEAD
+
   margin-top: 10px;
 }
 .login-right {
@@ -150,9 +150,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-=======
+
   transition: 0.3s;
->>>>>>> 6a99a31b12763159cd9ba9948a27a5e6577b8118
 }
 
 .login-right button:hover {
