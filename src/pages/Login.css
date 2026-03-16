@@ -75,11 +75,16 @@
 
 .login-right input {
   width: 100%;
-  padding: 10px;
-  margin: 8px 0 20px;
+  padding: 12px;
+  margin: 6px 0 18px;
   border-radius: 4px;
   border: none;
   outline: none;
+}
+.login-right label {
+  font-size: 13px;
+  display: block;
+  margin-bottom: 4px;
 }
 
 /* Options */
@@ -104,12 +109,22 @@
 /* Button */
 .login-right button {
   width: 100%;
-  padding: 10px;
+  padding: 12px;
   background: #4f7df3;
   border: none;
   color: white;
   cursor: pointer;
   border-radius: 4px;
+  margin-top: 10px;
+}
+.login-right {
+  width: 55%;
+  padding: 60px;
+  z-index: 1;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .login-right button:hover {
