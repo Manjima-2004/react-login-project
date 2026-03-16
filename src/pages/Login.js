@@ -7,7 +7,6 @@ function Login() {
   return (
     <div className="login-bg">
       <div className="login-card">
-
         {/* LEFT SECTION */}
        <div className="login-left">
             <img src={logo} alt="Logo" className="login-logo" />
@@ -18,11 +17,11 @@ function Login() {
          
         {/* RIGHT SECTION */}
         <div className="login-right">
-          <label>Your email</label>
-          <input type="email" placeholder="Enter your email" />
+          <label>Your Email</label>
+          <input type="email" placeholder="Enter your Email" />
 
           <label>Password</label>
-          <input type="password" placeholder="Enter your password" />
+          <input type="password" placeholder="Enter your Password" />
 
           <div className="login-options">
             <span className="recover">Forgot password</span>
@@ -37,5 +36,4 @@ function Login() {
     </div>
   );
 }
-
 export default Login;
