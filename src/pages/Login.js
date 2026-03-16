@@ -10,8 +10,9 @@ function Login() {
         {/* LEFT SECTION */}
        <div className="login-left">
             <img src={logo} alt="Logo" className="login-logo" />
-            <h2>Vindia Infrasec Pvt Ltd</h2>
-            <p>You Dream It.We Build It.</p>
+            <p>
+            You Dream It. <span className="build-text">We Build It.</span>
+            </p>
          </div>
 
         {/* RIGHT SECTION */}
@@ -23,15 +24,11 @@ function Login() {
           <input type="password" placeholder="Enter your password" />
 
           <div className="login-options">
-            <div className="remember">
-                <input type="checkbox" />
-                <span>Remember me</span>
-            </div>
             <span className="recover">Forgot password</span>
             </div>
           <button>LOGIN</button>
             <p className="signup-text">
-            Don't have an account? <span className="signup-link">Sign up</span>
+            Don't have an account? <span className="signup-link">Sign in</span>
             </p>
         </div>
 
