@@ -115,3 +115,19 @@
 .login-right button:hover {
   background: #3b66d6;
 }
+.signup-text {
+  margin-top: 15px;
+  font-size: 13px;
+  text-align: center;
+  color: white;
+}
+
+.signup-link {
+  color: #dbe7ff;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}

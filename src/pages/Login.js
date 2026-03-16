@@ -27,9 +27,12 @@ function Login() {
                 <input type="checkbox" />
                 <span>Remember me</span>
             </div>
-            <span className="recover">Recover password</span>
+            <span className="recover">Forgot password</span>
             </div>
           <button>LOGIN</button>
+            <p className="signup-text">
+            Don't have an account? <span className="signup-link">Sign up</span>
+            </p>
         </div>
 
       </div>
