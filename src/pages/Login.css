@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Background */
+.login-bg {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f2f2f2;
+}
+
+/* Card */
+.login-card {
+  width: 900px;
+  height: 450px;
+  display: flex;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+  background: white;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Diagonal effect */
+.login-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 45%;
+  width: 100%;
+  height: 100%;
+  background: #1f57a4;
+  transform: skewX(-15deg);
+  transform-origin: top;
+}
+
+/* LEFT */
+.login-left {
+  width: 45%;
+  padding: 60px;
+  z-index: 1;
+}
+
+.login-left h2 {
+  color: #1f57a4;
+  margin-bottom: 10px;
+}
+
+.login-left p {
+  color: #555;
+  font-size: 14px;
+}
+
+/* RIGHT */
+.login-right {
+  width: 55%;
+  padding: 60px;
+  z-index: 1;
+  color: white;
+}
+
+.login-right label {
+  font-size: 13px;
+}
+.login-logo {
+  width: 100px;
+  margin-bottom: 25px;
+  background: transparent;
+  mix-blend-mode: multiply;
+}
+
+.login-right input {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0 20px;
+  border-radius: 4px;
+  border: none;
+  outline: none;
+}
+
+/* Options */
+.login-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  margin-bottom: 25px;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.recover {
+  cursor: pointer;
+}
+
+/* Button */
+.login-right button {
+  width: 100%;
+  padding: 10px;
+  background: #4f7df3;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.login-right button:hover {
+  background: #3b66d6;
+}
